@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    background-color: #444444;
+    color: white;
+    padding: 40px 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contentgroup {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.headergroup {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    background-color: #444444;
+    align-items: center;
+}
+
+.section {
+    width: 600px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.section:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.section:nth-child(odd) {
+    background-color: #ddd;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  color:goldenrod;
+  text-decoration: none;
+}
+
+.contentimage {
+  width: 200px;
+  height: 200px;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: large;
+  font-style: normal;
+}
+
+h3 {
+  text-align: center;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start</title>
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="headergroup">
+    <div>
+      <img src="../img/picture.png" alt="picture">
+    </div>
+    <header>
+      <h1 class="dancing-script">Chantal Jaskulla</h1>
+      <p>Fachinformatikerin für Anwendungsentwicklung</p>
+    </header>
+  </div>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="/../index.php" class="press-start-2p-regular">Start</a></li>
+      <li><a href="/sites/aboutme.php" class="press-start-2p-regular">Über mich</a></li>
+      <li><a href="/sites/cv.php" class="press-start-2p-regular">Lebenslauf</a></li>
+      <li><a href="/sites/contact.php" class="press-start-2p-regular">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <div class="contentgroup">
+      <div>
+        <i class="fa-solid fa-hand-holding-heart fa-10x"></i>
+      </div>
+
+      <div id="welcome" class="section">
+        <h3 class="press-start-2p-regular">Herzlich Willkommen auf meiner Homepage!</h3>
+        <p>Dies ist eine reine HTML / CSS Seite, in der ursprünglichen Variante gibt es ein Gästebuch mittels PHP generiert -> <a href="https://github.com/Polar-Teddy/portfolio">Github-Repository</a></p>
+        <p>Gerne durchklicken und bei Fragen melden.</p>
+        <p>Vielen Dank für deinen Besuch &#128522;</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Chantal Jaskulla</p>
+  </footer>
+
+</body>
+
+</html>
