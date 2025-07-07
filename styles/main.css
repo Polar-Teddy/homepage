@@ -244,7 +244,7 @@ height: 100px;
 }
 
 .flip-card-back {
-  background-color: #e1c474;
+  background-color: #4c4b47;
   color: white;
   transform: rotateY(180deg);
   padding: 100px 50px;
@@ -252,7 +252,7 @@ height: 100px;
 }
 
 .flip-card-img {
-background-color: white;
+background-color: #bbb;
 }
 
 .flip-card-title {
